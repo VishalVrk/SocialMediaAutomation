@@ -1,0 +1,7 @@
+[3459:39687:0815/140317.308391:WARNING:leveldb_database.cc(106)] Unable to open /Users/vishalvaitheeswaranrk/eclipse-workspace/SocialMediaManager/Users/vishalvaitheeswaranrk/Library/ApplicationSupport/Google/Chrome/Default/Default/shared_proto_db: Invalid argument: /Users/vishalvaitheeswaranrk/eclipse-workspace/SocialMediaManager/Users/vishalvaitheeswaranrk/Library/ApplicationSupport/Google/Chrome/Default/Default/shared_proto_db: does not exist (create_if_missing is false)
+[3465:18691:0815/151908.345416:ERROR:ssl_client_socket_impl.cc(943)] handshake failed; returned -1, SSL error code 1, net_error -101
+[3465:43047:0815/155019.883138:WARNING:dns_config_service_posix.cc(340)] Failed to read DnsConfig.
+[3459:86399:0815/155019.883168:WARNING:dns_config_service_posix.cc(340)] Failed to read DnsConfig.
+[3459:38659:0815/155736.055537:ERROR:browser_process_sub_thread.cc(203)] Waited 14 ms for network service
+[3459:775:0815/155736.069513:WARNING:pref_notifier_impl.cc(36)] Pref observer for browser.relaunch_notification_period found at shutdown.
+[3459:775:0815/155736.069560:WARNING:pref_notifier_impl.cc(36)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
