@@ -85,6 +85,7 @@ public class FacebookDefinition{
 		for(int i=0;i<listOfFiles.length;i++) {
 		WebElement PhotoVideo = driver.findElement(By.xpath("//input[@type='file']"));
 		PhotoVideo.sendKeys(string+"/"+listOfFiles[i].getName().toString());
+		Thread.sleep(3000);
 		}
 		Thread.sleep(5000);
 		WebElement Caption = driver.findElement(By.xpath("//div[@aria-label='Say something about these photos...']"));
@@ -98,7 +99,10 @@ public class FacebookDefinition{
 	}
 
 	@Given("I post content")
-	public void i_post_content() {
+	public void i_post_content() throws Exception {
+		Thread.sleep(3000);
+		WebElement PostStatus = driver.findElement(By.xpath("//button//span[contains(text(),'Post')]"));
+		PostStatus.click();
 	}
 
 
